@@ -14,7 +14,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="https://github.com/DianaMartine/project-react-number2/blob/main/README.md"
+                href="https://github.com/DianaMartine/BooksOf/blob/main/README.md"
                 target="_blank"
                 rel="noreferrer"
               >
