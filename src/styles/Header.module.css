@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-family: "Viaoda Libre", sans-serif;
+}
+
+span {
+  color: purple;
+  font-size: 5rem;
+}
+
+.nav {
+  font-size: 1.2rem;
+  transition: 1s;
+}
+
+.nav li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.nav li a {
+  background: linear-gradient(to bottom, purple 0%, purple 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 0px;
+  color: purple;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+.nav li a:hover {
+  background-size: 4px 5px;
+}
+
+@media (min-width: 768px) {
+  .containerHeader {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: purple;
+    transition: 1s;
+  }
+
+  span {
+    color: antiquewhite;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+  }
+
+  .nav {
+    width: 15rem;
+  }
+
+  .nav ul {
+    display: flex;
+    width: 22rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+  }
+
+  .nav ul li {
+    margin: 1rem;
+  }
+
+  .nav ul li a {
+    color: antiquewhite;
+    animation-name: fade-in;
+    animation-duration: 2s;
+  }
+
+  .nav li a {
+    background: linear-gradient(to bottom, antiquewhite 0%, antiquewhite 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 0px;
+    text-decoration: none;
+    transition: background-size 0.5s;
+  }
+  
+  .nav li a:hover {
+    background-size: 4px 5px;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

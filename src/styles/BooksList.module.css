@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.input {
+  padding: 1rem;
+  width: 90%;
+  border: none;
+  border-radius: 8px;
+  background-color: purple;
+  color: antiquewhite;
+  transition: 1s;
+}
+
+.input:focus {
+  outline: none;
+  background-color: antiquewhite;
+  color: purple;
+  transition: 1s;
+}
+
+.input::-webkit-input-placeholder {
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.containerList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  margin: 2rem;
+  font-family: "Roboto Mono", serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.list {
+  font-family: "Roboto Mono", serif;
+  display: flex;
+  background-color: purple;
+  padding: 1rem;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  border-radius: 4px;
+  color: antiquewhite;
+  transition: 1s;
+  flex-direction: column;
+}
+
+.list a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  transition: 1s;
+}
+
+.authors {
+  background-color: antiquewhite;
+  border-radius: 4px;
+  padding: 1rem;
+  transition: 1s;
+  color: purple;
+}
+
+.authors a {
+  text-decoration: none;
+  color: purple;
+}
+
+.imgContainer {
+  transition: 1s;
+  display: flex;
+  background-color: purple;
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  color: antiquewhite;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerImg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-width: 8rem;
+  padding: 1rem;
+  margin: auto;
+  transition: 1s;
+}
+
+@media (min-width: 425px) {
+  .input {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .list,
+  .imgContainer {
+    max-width: 970px;
+  }
+}

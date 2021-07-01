@@ -1,0 +1,18 @@
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  margin: auto;
+  vertical-align: bottom;
+  margin-top: 5rem;
+}
+
+.containerFooter img {
+  max-width: 12rem;
+  border-radius: 4px;
+}
