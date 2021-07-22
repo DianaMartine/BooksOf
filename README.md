@@ -15,3 +15,4 @@ A ideia surge da minha paixão por livros e conhecimento. Às vezes gostamos tan
 ●	React && React Hooks
 ●	Axios
 ●	Npm
+.
